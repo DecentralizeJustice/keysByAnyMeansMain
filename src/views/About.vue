@@ -32,7 +32,7 @@
                    ></v-img>
                  <v-card-title primary-title class="justify-center">
                    <div>
-                     <h3 class="headline mb-0">Documentation</h3>
+                     <h3 class="headline mb-0">Project Managment</h3>
                    </div>
                  </v-card-title>
                  <v-card-actions class="justify-center">
@@ -64,7 +64,7 @@
                    ></v-img>
                  <v-card-title primary-title class="justify-center">
                    <div>
-                     <h3 class="headline mb-0">Business Plan</h3>
+                     <h3 class="headline mb-0">Business Managment</h3>
                    </div>
                  </v-card-title>
                  <v-card-actions class="justify-center">
@@ -80,34 +80,34 @@
                    ></v-img>
                  <v-card-title primary-title class="justify-center">
                    <div>
-                     <h3 class="headline mb-0">Applications</h3>
+                     <h3 class="headline mb-0">Multisig Crypto</h3>
                    </div>
                  </v-card-title>
                  <v-card-actions class="justify-center">
-                   <v-btn flat color="orange" href="https://github.com/DecentralizeJustice/">Github</v-btn>
+                   <v-btn flat color="orange" href="https://www.multisigcrypto.com/">MC</v-btn>
                  </v-card-actions>
                </v-card>
               </v-flex>
               <v-flex xs12 md4>
                 <v-card>
                    <v-img
-                     src="https://images.pexels.com/photos/1537008/pexels-photo-1537008.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                     src="https://images.pexels.com/photos/1061579/pexels-photo-1061579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                      aspect-ratio="2"
                    ></v-img>
                  <v-card-title primary-title class="justify-center">
                    <div>
-                     <h3 class="headline mb-0">Technical Specification</h3>
+                     <h3 class="headline mb-0">Frequent Wallet</h3>
                    </div>
                  </v-card-title>
                  <v-card-actions class="justify-center">
-                   <v-btn flat color="orange" href="https://www.multisigcrypto.com/spec/">Study</v-btn>
+                   <v-btn flat color="orange" href="https://frequentwallet.com/">F Wallet</v-btn>
                  </v-card-actions>
                </v-card>
               </v-flex>
               <v-flex xs12 md4 >
                 <v-card>
                    <v-img
-                     src="https://images.pexels.com/photos/707195/pexels-photo-707195.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                     src="https://images.pexels.com/photos/1476321/pexels-photo-1476321.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                      aspect-ratio="2"
                    ></v-img>
                  <v-card-title primary-title class="justify-center">
@@ -116,7 +116,7 @@
                    </div>
                  </v-card-title>
                  <v-card-actions class="justify-center">
-                   <v-btn flat color="orange" href="http://www.decentralizejustice.com/randd">Instructions</v-btn>
+                   <v-btn flat color="orange" href="http://www.decentralizejustice.com/randd">R and D</v-btn>
                  </v-card-actions>
                </v-card>
               </v-flex>

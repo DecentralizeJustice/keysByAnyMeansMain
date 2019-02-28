@@ -112,11 +112,11 @@
                    ></v-img>
                  <v-card-title primary-title class="justify-center">
                    <div>
-                     <h3 class="headline mb-0">Usage Instructions</h3>
+                     <h3 class="headline mb-0">Research and Development</h3>
                    </div>
                  </v-card-title>
                  <v-card-actions class="justify-center">
-                   <v-btn flat color="orange" href="https://www.multisigcrypto.com/instruct/">Instructions</v-btn>
+                   <v-btn flat color="orange" href="http://www.decentralizejustice.com/randd">Instructions</v-btn>
                  </v-card-actions>
                </v-card>
               </v-flex>

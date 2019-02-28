@@ -2,3 +2,4 @@
 
 /blog/*  https://decen-justice-blog86756.netlify.com/:splat   200!
 /busi/*  https://decen-businesss-website-4444333.netlify.com/:splat     200!
+/*    /index.html   200

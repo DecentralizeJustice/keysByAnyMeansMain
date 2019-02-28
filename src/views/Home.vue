@@ -6,9 +6,7 @@
         right: 0;
         bottom: 0;
         min-width: 100%;
-        min-height: 100%;
-        width: auto;
-        height: auto;"
+        min-height: 100%;"
         src="https://res.cloudinary.com/dylevfpbl/video/upload/v1551009310/decenMain/yes.mp4" autoplay muted loop/>
 
         <v-flex class="title" xs8 offset-xs2 pa-2 >

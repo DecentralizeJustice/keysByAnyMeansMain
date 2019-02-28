@@ -1,132 +1,54 @@
 <template>
-
-  <v-container  text-xs-center fluid pa-0>
+  <div>
     <v-toolbar>
-
       <v-toolbar-title>Decentralize Justice</v-toolbar-title>
-      <v-spacer></v-spacer>
-
     </v-toolbar>
-  <v-content>
-
-    <section>
+    <v-container fluid text-xs-center grid-list-xl>
       <v-layout
-        column
-        wrap
-        class="my-5"
-        align-center
+        justify-center row
+        wrap class="my-5"
+        align-center fill-height
       >
-        <v-flex xs12 sm4 class="my-3">
+        <v-flex xs12 sm12 class="my-3">
           <div class="text-xs-center">
-            <h2 class="headline">We are a company dedicated to creating services that are open and rigorous to serve humanity.</h2>
+            <h2 class="headline">We are a company dedicated to creating services that are open and rigorous.</h2>
           </div>
         </v-flex>
-        <v-flex xs12 >
-          <v-container grid-list-xl fluid>
-            <v-layout row wrap align-center>
-              <v-flex xs12 md4>
-                <v-card>
-                   <v-img
-                     src="https://images.pexels.com/photos/1055336/pexels-photo-1055336.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                     aspect-ratio="2"
-                   ></v-img>
-                 <v-card-title primary-title class="justify-center">
-                   <div>
-                     <h3 class="headline mb-0">Multisig Crypto</h3>
-                   </div>
-                 </v-card-title>
-                 <v-card-actions class="justify-center">
-                   <v-btn flat color="orange" href="https://www.multisigcrypto.com/">MC</v-btn>
-                 </v-card-actions>
-               </v-card>
-              </v-flex>
-              <v-flex xs12 md4>
-                <v-card>
-                   <v-img
-                     src="https://images.pexels.com/photos/1061579/pexels-photo-1061579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                     aspect-ratio="2"
-                   ></v-img>
-                 <v-card-title primary-title class="justify-center">
-                   <div>
-                     <h3 class="headline mb-0">Frequent Wallet</h3>
-                   </div>
-                 </v-card-title>
-                 <v-card-actions class="justify-center">
-                   <v-btn flat color="orange" href="https://frequentwallet.com/">F Wallet</v-btn>
-                 </v-card-actions>
-               </v-card>
-              </v-flex>
-              <v-flex xs12 md4>
-                <v-card>
-                   <v-img
-                     src="https://images.pexels.com/photos/261662/pexels-photo-261662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                     aspect-ratio="2"
-                   ></v-img>
-                 <v-card-title primary-title class="justify-center">
-                   <div>
-                     <h3 class="headline mb-0">Blog</h3>
-                   </div>
-                 </v-card-title>
-                 <v-card-actions class="justify-center">
-                   <v-btn flat color="orange" href="https://www.decentralizejustice.com/blog">Read</v-btn>
-                 </v-card-actions>
-               </v-card>
-              </v-flex>
-              <v-flex xs12 md4>
-                <v-card >
-                   <v-img
-                     src="https://images.pexels.com/photos/7376/startup-photos.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                     aspect-ratio="2"
-                   ></v-img>
-                 <v-card-title primary-title class="justify-center">
-                   <div>
-                     <h3 class="headline mb-0">Project Managment</h3>
-                   </div>
-                 </v-card-title>
-                 <v-card-actions class="justify-center">
-                   <v-btn flat color="orange" href="https://www.decentralizejustice.com/projectm/">Study</v-btn>
-                 </v-card-actions>
-               </v-card>
-              </v-flex>
-              <v-flex xs12 md4 >
-                <v-card>
-                   <v-img
-                     src="https://images.pexels.com/photos/1476321/pexels-photo-1476321.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                     aspect-ratio="2"
-                   ></v-img>
-                 <v-card-title primary-title class="justify-center">
-                   <div>
-                     <h3 class="headline mb-0">Research and Development</h3>
-                   </div>
-                 </v-card-title>
-                 <v-card-actions class="justify-center">
-                   <v-btn flat color="orange" href="http://www.decentralizejustice.com/randd">R and D</v-btn>
-                 </v-card-actions>
-               </v-card>
-              </v-flex>
-              <v-flex xs12 md4>
-                <v-card>
-                   <v-img
-                     src="https://images.pexels.com/photos/1661004/pexels-photo-1661004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                     aspect-ratio="2"
-                   ></v-img>
-                 <v-card-title primary-title class="justify-center">
-                   <div>
-                     <h3 class="headline mb-0">Business Managment</h3>
-                   </div>
-                 </v-card-title>
-                 <v-card-actions class="justify-center">
-                   <v-btn flat color="orange" href="https://www.decentralizejustice.com/busi">Explore</v-btn>
-                 </v-card-actions>
-               </v-card>
-              </v-flex>
 
-            </v-layout>
-          </v-container>
+        <v-flex xs12 md4  v-for="(item, key) in items" :key="item.id">
+          <v-card>
+             <v-img
+               v-bind:src="item.photo"
+               aspect-ratio="2"
+             ></v-img>
+           <v-card-title primary-title class="justify-center">
+             <div>
+               <h3 class="headline mb-0">{{ item.name }}</h3>
+             </div>
+           </v-card-title>
+           <v-card-actions class="justify-center">
+             <v-btn flat color="orange" v-bind:href="item.link">{{ key }}</v-btn>
+           </v-card-actions>
+         </v-card>
         </v-flex>
-      </v-layout>
-    </section>
 
-  </v-content>
-  </v-container>
+      </v-layout>
+    </v-container>
+  </div>
 </template>
+<script>
+export default {
+  data () {
+    return {
+      items: {
+        'Multisig': { name: 'Multisig Crypto', link: 'https://www.multisigcrypto.com/', photo: 'https://images.pexels.com/photos/1055336/pexels-photo-1055336.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' },
+        'F Wallet': { name: 'Frequent Wallet', link: 'https://frequentwallet.com/', photo: 'https://images.pexels.com/photos/1061579/pexels-photo-1061579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' },
+        'Read': { name: 'Blog', link: 'https://www.decentralizejustice.com/blog', photo: 'https://images.pexels.com/photos/261662/pexels-photo-261662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' },
+        'Study': { name: 'Project Management', link: 'https://www.decentralizejustice.com/projectm/', photo: 'https://images.pexels.com/photos/7376/startup-photos.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' },
+        'R & D': { name: 'Research and Development', link: 'http://www.decentralizejustice.com/randd', photo: 'https://images.pexels.com/photos/1476321/pexels-photo-1476321.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' },
+        'Explore': { name: 'Business Management', link: 'https://www.decentralizejustice.com/busi', photo: 'https://images.pexels.com/photos/1661004/pexels-photo-1661004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' }
+      }
+    }
+  }
+}
+</script>

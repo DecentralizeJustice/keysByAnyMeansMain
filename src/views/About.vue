@@ -25,57 +25,9 @@
           <v-container grid-list-xl fluid>
             <v-layout row wrap align-center>
               <v-flex xs12 md4>
-                <v-card >
-                   <v-img
-                     src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                     aspect-ratio="2"
-                   ></v-img>
-                 <v-card-title primary-title class="justify-center">
-                   <div>
-                     <h3 class="headline mb-0">Project Managment</h3>
-                   </div>
-                 </v-card-title>
-                 <v-card-actions class="justify-center">
-                   <v-btn flat color="orange" href="https://www.decentralizejustice.com/projectm/">Study</v-btn>
-                 </v-card-actions>
-               </v-card>
-              </v-flex>
-              <v-flex xs12 md4>
                 <v-card>
                    <v-img
-                     src="https://images.pexels.com/photos/261662/pexels-photo-261662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                     aspect-ratio="2"
-                   ></v-img>
-                 <v-card-title primary-title class="justify-center">
-                   <div>
-                     <h3 class="headline mb-0">Blog</h3>
-                   </div>
-                 </v-card-title>
-                 <v-card-actions class="justify-center">
-                   <v-btn flat color="orange" href="https://www.decentralizejustice.com/blog">Read</v-btn>
-                 </v-card-actions>
-               </v-card>
-              </v-flex>
-              <v-flex xs12 md4>
-                <v-card>
-                   <v-img
-                     src="https://images.pexels.com/photos/212286/pexels-photo-212286.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                     aspect-ratio="2"
-                   ></v-img>
-                 <v-card-title primary-title class="justify-center">
-                   <div>
-                     <h3 class="headline mb-0">Business Managment</h3>
-                   </div>
-                 </v-card-title>
-                 <v-card-actions class="justify-center">
-                   <v-btn flat color="orange" href="https://www.decentralizejustice.com/busi">Explore</v-btn>
-                 </v-card-actions>
-               </v-card>
-              </v-flex>
-              <v-flex xs12 md4>
-                <v-card>
-                   <v-img
-                     src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                     src="https://images.pexels.com/photos/1055336/pexels-photo-1055336.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                      aspect-ratio="2"
                    ></v-img>
                  <v-card-title primary-title class="justify-center">
@@ -104,6 +56,38 @@
                  </v-card-actions>
                </v-card>
               </v-flex>
+              <v-flex xs12 md4>
+                <v-card>
+                   <v-img
+                     src="https://images.pexels.com/photos/261662/pexels-photo-261662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                     aspect-ratio="2"
+                   ></v-img>
+                 <v-card-title primary-title class="justify-center">
+                   <div>
+                     <h3 class="headline mb-0">Blog</h3>
+                   </div>
+                 </v-card-title>
+                 <v-card-actions class="justify-center">
+                   <v-btn flat color="orange" href="https://www.decentralizejustice.com/blog">Read</v-btn>
+                 </v-card-actions>
+               </v-card>
+              </v-flex>
+              <v-flex xs12 md4>
+                <v-card >
+                   <v-img
+                     src="https://images.pexels.com/photos/7376/startup-photos.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                     aspect-ratio="2"
+                   ></v-img>
+                 <v-card-title primary-title class="justify-center">
+                   <div>
+                     <h3 class="headline mb-0">Project Managment</h3>
+                   </div>
+                 </v-card-title>
+                 <v-card-actions class="justify-center">
+                   <v-btn flat color="orange" href="https://www.decentralizejustice.com/projectm/">Study</v-btn>
+                 </v-card-actions>
+               </v-card>
+              </v-flex>
               <v-flex xs12 md4 >
                 <v-card>
                    <v-img
@@ -120,6 +104,23 @@
                  </v-card-actions>
                </v-card>
               </v-flex>
+              <v-flex xs12 md4>
+                <v-card>
+                   <v-img
+                     src="https://images.pexels.com/photos/1661004/pexels-photo-1661004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                     aspect-ratio="2"
+                   ></v-img>
+                 <v-card-title primary-title class="justify-center">
+                   <div>
+                     <h3 class="headline mb-0">Business Managment</h3>
+                   </div>
+                 </v-card-title>
+                 <v-card-actions class="justify-center">
+                   <v-btn flat color="orange" href="https://www.decentralizejustice.com/busi">Explore</v-btn>
+                 </v-card-actions>
+               </v-card>
+              </v-flex>
+
             </v-layout>
           </v-container>
         </v-flex>

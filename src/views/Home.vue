@@ -1,27 +1,25 @@
 <template>
-  <v-container  text-xs-center fluid ma-0 pa-0 >
-      <v-flex xs12 ma-0 pa-0 hidden-sm-and-down>
+  <v-container  text-xs-center fluid  >
+      <v-flex xs12 ma-0 pa-0 hidden-sm-and-down style="overflow: hidden;z-index:-1;">
         <video style="
         position: fixed;
         right: 0;
         bottom: 0;
-        min-width: 100%;
-        min-height: 100%;
-        overflow: hidden;"
+        overflow: hidden;
+        width: auto;
+        height: auto;"
         src="https://res.cloudinary.com/dylevfpbl/video/upload/v1551009310/decenMain/yes.mp4" autoplay muted loop/>
+        <v-flex class="title" xs8 offset-xs2 pa-2 >
+          <div class="display-4 white--text text-xs-center" >
+            Decentralize Justice
+          </div>
+          <br>
+          <div class="text-xs-center">
+            <v-btn flat class="buttonOpt"><router-link to="/about">About</router-link></v-btn>
+            <v-btn flat class="buttonOpt"><a href="https://www.decentralizejustice.com/blog">Blog</a></v-btn>
+          </div>
+        </v-flex>
       </v-flex>
-      <v-flex class="hidden-sm-and-down intro" xs12 style="position:relative;height:101vh;">
-         <v-flex class="title" xs8 offset-xs2 pa-4>
-         <div class="display-4 white--text text-xs-center" >
-           Decentralize Justice
-         </div>
-         <br>
-         <div class="text-xs-center">
-           <v-btn flat class="buttonOpt"><router-link to="/about">About</router-link></v-btn>
-           <v-btn flat class="buttonOpt"><a href="https://www.decentralizejustice.com/blog">Blog</a></v-btn>
-         </div>
-       </v-flex>
-</v-flex>
   </v-container>
 </template>
 

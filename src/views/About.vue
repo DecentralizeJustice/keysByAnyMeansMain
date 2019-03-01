@@ -46,7 +46,8 @@ export default {
         'Read': { name: 'Blog', link: 'https://www.decentralizejustice.com/blog', photo: 'https://images.pexels.com/photos/261662/pexels-photo-261662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' },
         'Study': { name: 'Project Management', link: 'https://www.decentralizejustice.com/projectm/', photo: 'https://images.pexels.com/photos/7376/startup-photos.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' },
         'R & D': { name: 'Research and Development', link: 'http://www.decentralizejustice.com/randd', photo: 'https://images.pexels.com/photos/1476321/pexels-photo-1476321.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' },
-        'Explore': { name: 'Business Management', link: 'https://www.decentralizejustice.com/busi', photo: 'https://images.pexels.com/photos/1661004/pexels-photo-1661004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' }
+        'Explore': { name: 'Business Management', link: 'https://www.decentralizejustice.com/busi', photo: 'https://images.pexels.com/photos/1661004/pexels-photo-1661004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' },
+        'Learn': { name: 'Operations', link: 'https://www.decentralizejustice.com/opdocs', photo: 'https://images.pexels.com/photos/1797428/pexels-photo-1797428.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' }
       }
     }
   }

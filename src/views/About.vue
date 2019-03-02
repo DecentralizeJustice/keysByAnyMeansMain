@@ -44,10 +44,12 @@ export default {
         'Multisig': { name: 'Multisig Crypto', link: 'https://www.multisigcrypto.com/', photo: 'https://images.pexels.com/photos/1055336/pexels-photo-1055336.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' },
         'F Wallet': { name: 'Frequent Wallet', link: 'https://frequentwallet.com/', photo: 'https://images.pexels.com/photos/1061579/pexels-photo-1061579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' },
         'Read': { name: 'Blog', link: 'https://www.decentralizejustice.com/blog', photo: 'https://images.pexels.com/photos/261662/pexels-photo-261662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' },
+        'Build': { name: 'Decentralized Best Practices', link: 'https://www.decenbestpractices.com', photo: 'https://images.pexels.com/photos/1370295/pexels-photo-1370295.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' },
         'Study': { name: 'Project Management', link: 'https://www.decentralizejustice.com/projectm/', photo: 'https://images.pexels.com/photos/7376/startup-photos.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' },
         'R & D': { name: 'Research and Development', link: 'http://www.decentralizejustice.com/randd', photo: 'https://images.pexels.com/photos/1476321/pexels-photo-1476321.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' },
         'Explore': { name: 'Business Management', link: 'https://www.decentralizejustice.com/busi', photo: 'https://images.pexels.com/photos/1661004/pexels-photo-1661004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' },
         'Learn': { name: 'Operations', link: 'https://www.decentralizejustice.com/opdocs', photo: 'https://images.pexels.com/photos/1797428/pexels-photo-1797428.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' }
+
       }
     }
   }

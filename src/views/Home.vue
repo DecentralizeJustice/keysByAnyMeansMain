@@ -22,8 +22,9 @@
         </v-flex>
       </v-flex>
 
-      <v-flex xs12 ma-0 pa-0 hidden-md-and-up  style="background-image: url('https://images.pexels.com/photos/912110/pexels-photo-912110.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');height:100vh;width:100vw; ">
-        <v-flex class="title" xs12 pa-2 style="background-color: #64B5F6;">
+      <v-flex xs12 ma-0 pa-0 hidden-md-and-up  style="background-image: url('https://images.pexels.com/photos/912110/pexels-photo-912110.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');height:100vh;width:100vw;  background-repeat: no-repeat;
+  background-size: cover; ">
+        <v-flex class="title" xs12 pa-4 style="background-color: #64B5F6;">
           <div class="display-2 white--text text-xs-center" >
             Decentralize Justice
           </div>

@@ -1,6 +1,7 @@
 <template>
-  <v-container  text-xs-center fluid  >
-      <v-flex xs12 ma-0 pa-0 hidden-sm-and-down style="overflow: hidden;">
+  <v-container  text-xs-center fluid ma-0 pa-0 >
+    <v-layout row wrap ma-0 pa-0>
+      <v-flex xs12 ma-0 pa-0 hidden-md-and-down style="overflow: hidden;">
         <video style="
         position: fixed;
         right: 0;
@@ -9,7 +10,7 @@
         min-height: 100%;"
         src="https://res.cloudinary.com/dylevfpbl/video/upload/v1551009310/decenMain/yes.mp4" autoplay muted loop/>
 
-        <v-flex class="title" xs8 offset-xs2 pa-2 >
+        <v-flex class="title" md8 offset-xs2 pa-2 >
           <div class="display-4 white--text text-xs-center" >
             Decentralize Justice
           </div>
@@ -20,6 +21,20 @@
           </div>
         </v-flex>
       </v-flex>
+
+      <v-flex xs12 ma-0 pa-0 hidden-md-and-up  style="background-image: url('https://images.pexels.com/photos/912110/pexels-photo-912110.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');height:100vh;width:100vw; ">
+        <v-flex class="title" xs12 pa-2 style="background-color: #64B5F6;">
+          <div class="display-2 white--text text-xs-center" >
+            Decentralize Justice
+          </div>
+          <br>
+          <div class="text-xs-center">
+            <v-btn flat class="buttonOpt"><router-link to="/about">About</router-link></v-btn>
+            <v-btn flat class="buttonOpt"><a href="https://www.decentralizejustice.com/blog">Blog</a></v-btn>
+          </div>
+        </v-flex>
+      </v-flex>
+      </v-layout>
   </v-container>
 </template>
 
@@ -36,7 +51,7 @@ export default {
 <style scoped>
 a{
   text-decoration: none;
-  color:black;
+  color:white;
 }
 .title{
   margin: 0;
@@ -45,10 +60,10 @@ a{
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgb(169,169,169,.9);
-  /* border-radius: 3%; */
 }
 .buttonOpt {
-  color:  black;
+  color:  white;
   font-size: 1.4rem;
 }
+
 </style>

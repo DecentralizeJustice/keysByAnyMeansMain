@@ -1,5 +1,5 @@
 <template>
-  <v-container  text-xs-center fluid ma-0 pa-0 >
+  <!-- <v-container  text-xs-center fluid ma-0 pa-0 >
     <v-layout row wrap ma-0 pa-0>
       <v-flex xs12 ma-0 pa-0 hidden-md-and-down style="overflow: hidden;">
         <video style="
@@ -36,7 +36,7 @@
         </v-flex>
       </v-flex>
       </v-layout>
-  </v-container>
+  </v-container> -->
 </template>
 
 <script>

@@ -42,7 +42,6 @@ export default {
     return {
       items: {
         'Multisig': { name: 'Multisig Crypto', link: 'https://www.multisigcrypto.com/', photo: 'https://images.pexels.com/photos/1055336/pexels-photo-1055336.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' },
-        'F Wallet': { name: 'Frequent Wallet', link: 'https://frequentwallet.com/', photo: 'https://images.pexels.com/photos/1061579/pexels-photo-1061579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' },
         'Read': { name: 'Blog', link: 'https://www.decentralizejustice.com/blog', photo: 'https://images.pexels.com/photos/261662/pexels-photo-261662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' },
         'Build': { name: 'Decentralized Best Practices', link: 'https://www.decenbestpractices.com', photo: 'https://images.pexels.com/photos/1370295/pexels-photo-1370295.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' },
         'Study': { name: 'Project Management', link: 'https://www.decentralizejustice.com/projectm/', photo: 'https://images.pexels.com/photos/7376/startup-photos.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' },

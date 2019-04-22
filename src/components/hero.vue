@@ -77,8 +77,8 @@ font-size: 200%;
 }
 .textm{
 font-size: 200%;
-width: 80%;
-margin-left: 10%;
+width: 90%;
+margin-left: 5%;
 }
 .butt{
   margin-top: 5%;

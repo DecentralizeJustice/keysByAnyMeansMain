@@ -10,7 +10,7 @@
       </div>
     </v-flex>
     <v-flex xs8 class="fullheight">
-      <img src="https://res.cloudinary.com/dylevfpbl/image/upload/v1555913263/keysbyanymeans/undraw_marketing_v0iu.svg"
+      <img src="https://res.cloudinary.com/dylevfpbl/image/upload/v1555918573/keysbyanymeans/undraw_marketing_v0iu_1.svg"
       class="centerY"
         style="height:auto;width:70%;position:relative;margin-top:10%;margin-left:5%;" >
     </v-flex>
@@ -26,8 +26,8 @@
       </div>
     </v-flex>
     <v-flex xs12 class="" style="margin-bottom:10%;">
-      <img src="https://res.cloudinary.com/dylevfpbl/image/upload/v1555913263/keysbyanymeans/undraw_marketing_v0iu.svg"
-        style="height:auto;width:80vw;margin-top:10%;margin-left:10vw;margin-botton:100%;" >
+      <img src="https://res.cloudinary.com/dylevfpbl/image/upload/v1555918573/keysbyanymeans/undraw_marketing_v0iu_1.svg"
+        style="height:auto;width:80vw;margin-top:10%;margin-left:10vw;" >
     </v-flex>
 
   </v-layout>
@@ -52,7 +52,7 @@ export default {
   height:100%;
 }
 .first{
-background-color: #2575fc;
+background-color: #6c63ff;
 }
 .herotext{
 margin-top:50%;

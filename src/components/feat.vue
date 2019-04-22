@@ -1,5 +1,5 @@
 <template>
-  <v-layout row wrap ma-0 pa-0 align-center justify-space-around style="height:50vh;">
+  <v-layout row wrap ma-0 pa-0 align-center justify-space-around>
 
       <featcard v-for="item in data" :key="item.title" v-bind:item='item' />
 

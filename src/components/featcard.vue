@@ -17,18 +17,18 @@
       </div>
     </v-flex>
 
-    <v-flex xs12 class="hidden-md-and-up back">
-      <div style="width:100%;padding-bottom: 5%; height:65vh;">
+    <v-flex xs12 class="hidden-md-and-up back" style="height:100%;">
+      <div style="width:100%;padding-bottom: 5%;height:100%;">
         <img :src="item.img"
-          style="height:30%;width:auto;position:relative;margin-top:10%;margin-left:5%;" >
-        <div style="width:100%;padding-bottom: 5%;height:50%">
+          style="height:30vh;width:auto;position:relative;margin-top:10%;margin-left:5%;" >
+        <div style="width:100%;margin-bottom: 5%;">
           <div class="titlem" v-html='item.title'>
           </div>
-          <div class="textm" v-html='item.text' style="height:20;">>
+          <div class="textm" v-html='item.text' style="">
           </div>
         </div>
         <a :href='item.link'>
-        <button class = "bttn-simple bttn-lg" style="background-color:white;color:grey;"
+        <button class = "bttn-simple bttn-lg" style="background-color:white;color:grey;margin-top:5%;margin-bottom:5%;"
         v-html='item.linkText' ></button>
       </a>
       </div>
@@ -74,6 +74,8 @@ font-weight: bold;
 }
 .textm{
 font-size: 200%;
+width: 80%;
+margin-left: 10%;
 }
 
 </style>

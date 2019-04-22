@@ -9,9 +9,9 @@
     </v-flex>
   </v-layout>
 
-  <v-layout row wrap ma-0 pa-0 style="" class=" first hidden-md-and-up">
+  <v-layout row wrap ma-0 pa-0 style="" class=" first hidden-md-and-up" style="height:70vh;">
     <v-flex xs12>
-      <div class="herotextm">
+      <div class="herotextm center">
         <div class="titlem" v-html='title'></div>
         <div class="textm" v-html='main'></div>
       </div>
@@ -52,7 +52,6 @@ width:60%;
 }
 .herotextm{
 color:black;
-margin-top:5%;
 width:100%;
 }
 .titlet{
@@ -71,6 +70,11 @@ color:white;
 font-size: 200%;
 width: 90%;
 margin-left: 5%;
+}
+.center{
+  position: relative;
+top: 50%;
+transform: translateY(-50%);
 }
 
 </style>

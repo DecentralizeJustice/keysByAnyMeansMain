@@ -31,7 +31,7 @@ export default {
     return {
       main: `We have created a tool that allows you to get the best practices from years of crytocurrency experience and apply
     it to your specific use case and threats.`,
-      title: `Crypto Security Gets Alot Better`
+      title: `Crypto Security Made Easier`
     }
   }
 }
@@ -46,9 +46,9 @@ export default {
 }
 .herotext{
 margin-top:5%;
-margin-left: 10%;
+margin-left: 20%;
 color:black;
-width:80%;
+width:60%;
 }
 .herotextm{
 color:black;
@@ -65,6 +65,7 @@ font-weight: bold;
 }
 .text{
 font-size: 200%;
+color:white;
 }
 .textm{
 font-size: 200%;

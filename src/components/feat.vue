@@ -1,18 +1,9 @@
 <template>
-  <div>
-  <v-layout row wrap ma-0 pa-0 align-center justify-space-around style="height:50vh;" class="hidden-sm-and-down">
+  <v-layout row wrap ma-0 pa-0 align-center justify-space-around style="height:50vh;">
 
-      <featcard v-for="i in 3" />
+      <featcard v-for="item in data" :key="item.title" v-bind:item='item' />
 
   </v-layout>
-
-  <v-layout row wrap ma-0 pa-0 style="" class=" first hidden-md-and-up">
-    <v-flex xs12>
-
-    </v-flex>
-  </v-layout>
-  </div>
-
 </template>
 
 <script>
@@ -26,7 +17,27 @@ export default {
     return {
       data: [
         {
-          img: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555922547/keysbyanymeans/undraw_open_source_1qxw.svg'
+          img: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555922547/keysbyanymeans/undraw_open_source_1qxw.svg',
+          title: 'Open',
+          text: `This entire app is free and opensource.
+                The code base can be extened to add new tools and best practes with a simple pr.`,
+          link: 'https://www.google.com',
+          linkText: 'Github'
+        },
+        {
+          img: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555918573/keysbyanymeans/undraw_marketing_v0iu_1.svg',
+          title: 'Custom',
+          text: `The methods in this app have been collected from years of crypto experince and follow best practices. `,
+          link: 'https://www.google.com',
+          linkText: 'Start'
+        },
+        {
+          img: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555922526/keysbyanymeans/undraw_folder_39kl.svg',
+          title: 'Trusted',
+          text: `The methods in this app have been collected from years of crypto
+                experince and consoldited down for your consumption`,
+          link: 'https://www.google.com',
+          linkText: 'Start'
         }
       ]
 

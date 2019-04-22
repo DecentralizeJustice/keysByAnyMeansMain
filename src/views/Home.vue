@@ -3,8 +3,10 @@
     <!-- <toolBar/> -->
     <v-layout row wrap ma-0 pa-0 style="" class="first">
       <hero/>
+      <div style="background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);height:125vh;">
       <sum/>
       <feat/>
+      </div>
     </v-layout>
   </v-container>
 </template>

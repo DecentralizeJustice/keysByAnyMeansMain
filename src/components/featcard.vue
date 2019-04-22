@@ -1,23 +1,37 @@
 <template>
-  <v-flex md3 xs12>
-    <v-flex xs12 style="" class="fullheight hidden-sm-and-down">
-      <div style="background-color:blue;width:100%;">
-        <img src="https://res.cloudinary.com/dylevfpbl/image/upload/v1555922547/keysbyanymeans/undraw_open_source_1qxw.svg"
-          style="height:auto;width:80%;position:relative;margin-top:10%;margin-left:10%;" >
-        <div>
-          <div>
-            Open Source
+  <v-flex md4 xs12>
+    <v-flex xs12 style="margin:5%;height:65vh;" class="back hidden-sm-and-down">
+      <div style="width:100%;padding-bottom: 5%; height:65vh;">
+        <img :src="item.img"
+          style="height:30%;width:auto;position:relative;margin-top:10%;margin-left:5%;" >
+        <div style="width:100%;padding-bottom: 5%;height:50%">
+          <div class="titlec" v-html='item.title'>
           </div>
-          <div>
-            The entire program is free and opensource.
-            The code base can be extened to add new tools and best practes with a simple pr.
+          <div class="textc" v-html='item.text' style="height:20;">>
           </div>
         </div>
+        <a :href='item.link'>
+        <button class = "bttn-simple bttn-lg" style="background-color:white;color:grey;"
+        v-html='item.linkText' ></button>
+      </a>
       </div>
     </v-flex>
 
-    <v-flex xs12 class="hidden-md-and-up">
-
+    <v-flex xs12 class="hidden-md-and-up back">
+      <div style="width:100%;padding-bottom: 5%; height:65vh;">
+        <img :src="item.img"
+          style="height:30%;width:auto;position:relative;margin-top:10%;margin-left:5%;" >
+        <div style="width:100%;padding-bottom: 5%;height:50%">
+          <div class="titlem" v-html='item.title'>
+          </div>
+          <div class="textm" v-html='item.text' style="height:20;">>
+          </div>
+        </div>
+        <a :href='item.link'>
+        <button class = "bttn-simple bttn-lg" style="background-color:white;color:grey;"
+        v-html='item.linkText' ></button>
+      </a>
+      </div>
     </v-flex>
 
   </v-flex>
@@ -27,6 +41,7 @@
 <script>
 export default {
   name: 'featcard',
+  props: ['item'],
   components: {
 
   },
@@ -42,16 +57,23 @@ export default {
   color:  white;
   font-size: 1.4rem;
 }
-.fullheight{
-  height:100%;
+.back{
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
-.titlet{
-font-size: 500%;
+.titlec{
+font-size: 300%;
 font-weight: bold;
+}
+.textc{
+font-size: 200%;
 }
 .titlem{
 font-size: 300%;
 font-weight: bold;
+
+}
+.textm{
+font-size: 200%;
 }
 
 </style>

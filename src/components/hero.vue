@@ -20,8 +20,8 @@
     <v-flex xs12>
       <div class="herotextm">
         <div class="titlem">Secure Crypto</div>
-        <div class="text">
-          Discover the best way to secure your crypocurrency.  </div>
+        <div class="textm">
+          Discover the best way to secure your crypocurrency</div>
           <button class = "bttn-jelly butt bttn-lg">Start</button>
       </div>
     </v-flex>
@@ -74,6 +74,11 @@ font-weight: bold;
 }
 .text{
 font-size: 200%;
+}
+.textm{
+font-size: 200%;
+width: 80%;
+margin-left: 10%;
 }
 .butt{
   margin-top: 5%;

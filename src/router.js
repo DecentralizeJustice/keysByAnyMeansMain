@@ -12,6 +12,13 @@ export default new Router({
       path: '/',
       name: 'home',
       component: Home
+    },
+    {
+      path: '/blog',
+      beforeEnter (to, from, next) {
+        // Put the full page url including the protocol http(s) below
+        window.location = 'https://www.decentralizejustice.com/blog'
+      }
     }
   ]
 })

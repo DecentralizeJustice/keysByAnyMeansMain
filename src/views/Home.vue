@@ -1,17 +1,23 @@
 <template>
   <v-container  text-xs-center fluid ma-0 pa-0 >
-    <v-layout row wrap ma-0 pa-0 style="height:90vh;" class="first">
+    <!-- <toolBar/> -->
+    <v-layout row wrap ma-0 pa-0 style="" class="first">
       <hero/>
+      <sum/>
     </v-layout>
   </v-container>
 </template>
 
 <script>
+import toolBar from '@/components/toolBar.vue'
 import hero from '@/components/hero.vue'
+import sum from '@/components/sum.vue'
 export default {
   name: 'home',
   components: {
-    hero
+    hero,
+    toolBar,
+    sum
   }
 }
 </script>

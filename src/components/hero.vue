@@ -39,7 +39,7 @@ export default {
   },
   data () {
     return {
-      text: `Discover the best way to secure your crypocurrency`
+      text: `Discover the best way to secure your cryptocurrency`
     }
   }
 }

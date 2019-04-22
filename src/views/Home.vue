@@ -4,6 +4,7 @@
     <v-layout row wrap ma-0 pa-0 style="" class="first">
       <hero/>
       <sum/>
+      <feat/>
     </v-layout>
   </v-container>
 </template>
@@ -12,12 +13,14 @@
 import toolBar from '@/components/toolBar.vue'
 import hero from '@/components/hero.vue'
 import sum from '@/components/sum.vue'
+import feat from '@/components/feat.vue'
 export default {
   name: 'home',
   components: {
     hero,
     toolBar,
-    sum
+    sum,
+    feat
   }
 }
 </script>

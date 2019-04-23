@@ -4,7 +4,7 @@
     class=" back hidden-sm-and-down">
         <img :src="item.img"
           style="height:25vh;width:auto;margin-top:3vh;" >
-        <div style="width:100%;height:15vh;">
+        <div style="width:90%;height:15vh;margin-left:5%">
           <div class="titlec" v-html='item.title'>
           </div>
           <div class="textc" v-html='item.text' style="">
@@ -65,7 +65,7 @@ font-size: 6vh;
 font-weight: bold;
 }
 .textc{
-font-size: 3vh;
+font-size: 3.1vh;
 }
 .titlem{
 font-size: 300%;

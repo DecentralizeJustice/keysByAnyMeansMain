@@ -1,6 +1,6 @@
 <template>
   <div>
-  <v-layout row wrap ma-0 pa-0 style="height:50vh;" class="hidden-sm-and-down">
+  <v-layout row wrap ma-0 pa-0 style="height:100%;" class="hidden-sm-and-down">
     <v-flex xs12 style="" class="fullheight">
       <div class="herotext">
         <div class="titlet" v-html='title'></div>
@@ -46,9 +46,9 @@ export default {
 }
 .herotext{
 margin-top:5%;
-margin-left: 20%;
+margin-left: 15%;
 color:black;
-width:60%;
+width:70%;
 }
 .herotextm{
 color:black;

@@ -1,6 +1,6 @@
 <template>
   <v-flex md4 xs12>
-    <v-flex xs12 style="margin-left:5%;margin-right:5%;height:72vh;margin-top:20%;"
+    <v-flex xs12 style="margin-left:5%;margin-right:5%;height:72vh;margin-top:20%;margin-bottom:7%;"
     class=" back hidden-sm-and-down">
         <img :src="item.img"
           style="height:25vh;width:auto;margin-top:3vh;" >
@@ -10,14 +10,14 @@
           <div class="textc" v-html='item.text' style="">
           </div>
         </div>
-        <!-- <a :href='item.link'> -->
+        <a :href='item.link'>
         <button class ="bttn-simple bttn-lg" style="background-color:white;color:grey;margin-top:15vh;"
         v-html='item.linkText' ></button>
-      <!-- </a> -->
+      </a>
 
     </v-flex>
 
-    <!-- <v-flex xs12 class="hidden-md-and-up back" style="height:100%;">
+    <v-flex xs12 class="hidden-md-and-up back" style="height:100%;">
       <div style="width:100%;padding-bottom: 5%;height:100%;">
         <img :src="item.img"
           style="height:30vh;width:auto;position:relative;margin-top:10%;margin-left:5%;" >
@@ -32,7 +32,7 @@
         v-html='item.linkText' ></button>
       </a>
       </div>
-    </v-flex> -->
+    </v-flex>
 
   </v-flex>
 

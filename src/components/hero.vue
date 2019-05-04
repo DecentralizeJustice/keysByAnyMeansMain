@@ -54,6 +54,7 @@ export default {
 }
 .first{
 background-color: #6c63ff;
+width:100vw;
 }
 .herotext{
 margin-top:50%;

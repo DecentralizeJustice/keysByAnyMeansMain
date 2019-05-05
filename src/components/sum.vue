@@ -9,7 +9,7 @@
     </v-flex>
   </v-layout>
 
-  <v-layout row wrap ma-0 pa-0 style="" class=" first hidden-md-and-up" style="height:70vh;">
+  <v-layout row wrap ma-0 pa-0  class=" first hidden-md-and-up" style="height:70vh;">
     <v-flex xs12>
       <div class="herotextm center">
         <div class="titlem" v-html='title'></div>

@@ -1,4 +1,4 @@
 # Invisibly proxy to design spec
 
-/app/*  https://keys-app.netlify.com/:splat   200!
+/profiles/*  https://keys-app.netlify.com/:splat   200!
 /*    /index.html   200
